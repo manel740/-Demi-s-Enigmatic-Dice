@@ -46,7 +46,6 @@ public class EnigmaticDice {
         ModAttributes.register(modEventBus);
         ModStats.register(modEventBus);
 
-        // ¡ESTA ES LA LÍNEA CLAVE QUE FALTABA PARA LOS ATTACHMENTS!
         ModAttachments.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
