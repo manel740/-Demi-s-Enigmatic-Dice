@@ -1,0 +1,2 @@
+/give dev enigmaticdice:moai_charm
+/time set day

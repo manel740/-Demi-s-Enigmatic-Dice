@@ -1,7 +1,5 @@
 package net.jrdemiurge.enigmaticdice.item.custom;
 
-import com.google.common.collect.HashMultimap;
-import com.google.common.collect.Multimap;
 import net.jrdemiurge.enigmaticdice.Config;
 import net.jrdemiurge.enigmaticdice.EnigmaticDice;
 import net.jrdemiurge.enigmaticdice.item.ModItems;
@@ -11,6 +9,7 @@ import net.minecraft.client.gui.screens.Screen;
 import net.minecraft.core.Holder;
 import net.minecraft.network.chat.Component;
 import net.minecraft.resources.ResourceLocation;
+import net.minecraft.world.entity.EquipmentSlotGroup;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.ai.attributes.Attribute;
 import net.minecraft.world.entity.ai.attributes.AttributeInstance;
@@ -22,9 +21,11 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.SwordItem;
 import net.minecraft.world.item.Tier;
 import net.minecraft.world.item.TooltipFlag;
-import net.minecraft.world.level.Level;
+import net.minecraft.world.item.component.ItemAttributeModifiers;
 import net.neoforged.api.distmarker.Dist;
 import net.neoforged.api.distmarker.OnlyIn;
+
+import java.util.List;
 
 public class UnequalExchange extends SwordItem {
 
@@ -35,19 +36,20 @@ public class UnequalExchange extends SwordItem {
     private static final ResourceLocation SPEED_DEBUFF_ID = ResourceLocation.fromNamespaceAndPath(EnigmaticDice.MOD_ID, "unequal_exchange_speed_debuff");
 
     public UnequalExchange(Tier pTier, Properties pProperties) {
-        super(pTier, pProperties);
-    }
-
-    // Nota: Sin @Override porque la firma en 1.21.1 cambió, lo tratamos como método helper o de interfaz custom
-    public Multimap<Holder<Attribute>, AttributeModifier> getAttributeModifiers(ItemStack stack) {
-        Multimap<Holder<Attribute>, AttributeModifier> modifiers = HashMultimap.create();
-        modifiers.put(Attributes.ATTACK_DAMAGE, new AttributeModifier(
-                ResourceLocation.fromNamespaceAndPath(EnigmaticDice.MOD_ID, "unequal_exchange_damage"),
-                Config.UnequalExchangeAttackDamage - 1, AttributeModifier.Operation.ADD_VALUE));
-        modifiers.put(Attributes.ATTACK_SPEED, new AttributeModifier(
-                ResourceLocation.fromNamespaceAndPath(EnigmaticDice.MOD_ID, "unequal_exchange_speed"),
-                Config.UnequalExchangeAttackSpeed - 4, AttributeModifier.Operation.ADD_VALUE));
-        return modifiers;
+        super(pTier, pProperties.attributes(
+                ItemAttributeModifiers.builder()
+                        .add(Attributes.ATTACK_DAMAGE, new AttributeModifier(
+                                Item.BASE_ATTACK_DAMAGE_ID,
+                                Config.UnequalExchangeAttackDamage - 1.0, // 1.0 - 1.0 = 0.0 (Total: 1.0)
+                                AttributeModifier.Operation.ADD_VALUE
+                        ), EquipmentSlotGroup.MAINHAND)
+                        .add(Attributes.ATTACK_SPEED, new AttributeModifier(
+                                Item.BASE_ATTACK_SPEED_ID,
+                                Config.UnequalExchangeAttackSpeed - 4.0, // 1.6 - 4.0 = -2.4 (Total: 1.6)
+                                AttributeModifier.Operation.ADD_VALUE
+                        ), EquipmentSlotGroup.MAINHAND)
+                        .build()
+        ));
     }
 
     @Override
@@ -79,6 +81,12 @@ public class UnequalExchange extends SwordItem {
         return super.hurtEnemy(stack, target, attacker);
     }
 
+    // ✅ MÉTODO AÑADIDO: Necesario para LivingHurtLowestHandler
+    public static boolean isHeldMainHand(Player player) {
+        return player.getMainHandItem().is(ModItems.UNEQUAL_EXCHANGE.get());
+    }
+
+    // ✅ MÉTODO AÑADIDO: Necesario para PlayerTickHandler
     public static void updateModifiers(Player player, UnequalExchangeData data) {
         if (data.getHitCount() <= 0) return;
 
@@ -104,11 +112,6 @@ public class UnequalExchange extends SwordItem {
         }
     }
 
-    // MÉTODO AÑADIDO: Para resolver el error en LivingHurtLowestHandler
-    public static boolean isHeldMainHand(Player player) {
-        return player.getMainHandItem().is(ModItems.UNEQUAL_EXCHANGE.get());
-    }
-
     @Override
     public boolean isDamageable(ItemStack stack) {
         return false;
@@ -116,14 +119,13 @@ public class UnequalExchange extends SwordItem {
 
     @Override
     @OnlyIn(Dist.CLIENT)
-    public void appendHoverText(ItemStack pStack, Item.TooltipContext pContext, java.util.List<Component> pTooltipComponents, TooltipFlag pIsAdvanced) {
+    public void appendHoverText(ItemStack pStack, Item.TooltipContext pContext, List<Component> pTooltipComponents, TooltipFlag pIsAdvanced) {
         if (Screen.hasShiftDown()) {
             pTooltipComponents.add(Component.translatable("tooltip.enigmaticdice.unequal_exchange_1"));
             pTooltipComponents.add(Component.literal(" "));
-            pTooltipComponents.add(Component.translatable("tooltip.enigmaticdice.unequal_exchange_2")
-                    .withStyle(ChatFormatting.GOLD));
+            pTooltipComponents.add(Component.translatable("tooltip.enigmaticdice.unequal_exchange_2").withStyle(ChatFormatting.GOLD));
         } else {
-            pTooltipComponents.add(Component.translatable("tooltip.enigmaticdice.holdShift"));
+            pTooltipComponents.add(Component.translatable("tooltip.enigmaticdice.holdShift").withStyle(ChatFormatting.GRAY));
         }
         super.appendHoverText(pStack, pContext, pTooltipComponents, pIsAdvanced);
     }

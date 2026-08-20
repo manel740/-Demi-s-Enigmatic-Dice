@@ -1,3 +1,7 @@
 {
-  "values": ["enigmaticdice:giants_ring", "enigmaticdice:ring_of_agility","enigmaticdice:divine_shield"]
+  "replace": false,
+  "values": [
+    "enigmaticdice:giants_ring",
+    "enigmaticdice:ring_of_agility"
+  ]
 }

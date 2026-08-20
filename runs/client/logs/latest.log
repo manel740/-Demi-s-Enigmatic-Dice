@@ -1,21 +1,21 @@
-[19ago2026 16:39:10.191] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeclientuserdev, --version, 21.1.73, --assetIndex, asset-index, --assetsDir, C:\Users\Administrator\.gradle\caches\minecraft\assets, --gameDir, ., --fml.neoForgeVersion, 21.1.73, --fml.fmlVersion, 4.0.31, --fml.mcVersion, 1.21.1, --fml.neoFormVersion, 20240808.144430]
-[19ago2026 16:39:10.195] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Eclipse Adoptium OpenJDK 64-Bit Server VM 21.0.10+7-LTS
-[19ago2026 16:39:10.198] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 11.0.4+main.d2e20e43 starting: java version 21.0.10 by Eclipse Adoptium; OS Windows 10 arch amd64 version 10.0
-[19ago2026 16:39:10.390] [main/INFO] [net.neoforged.fml.loading.ImmediateWindowHandler/]: Loading ImmediateWindowProvider fmlearlywindow
-[19ago2026 16:39:10.534] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.6
-[19ago2026 16:39:10.705] [main/INFO] [EARLYDISPLAY/]: Requested GL version 4.6 got version 4.6
-[19ago2026 16:39:10.826] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=union:/C:/Users/Administrator/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/2af2f021d8e02a0220dc27a7a72b4666d66d44ca/sponge-mixin-0.15.2+mixin.0.8.7.jar%23135!/ Service=ModLauncher Env=CLIENT
-[19ago2026 16:39:10.986] [pool-2-thread-1/INFO] [EARLYDISPLAY/]: GL info: Intel(R) Iris(R) Xe Graphics GL version 4.6.0 - Build 32.0.101.6737, Intel
-[19ago2026 16:39:11.104] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "neoforge-21.1.73.jar" [locator: neoforge devenv provider ([C:\Users\Administrator\Desktop\projects\Demis-Enigmatic-Dice\.gradle\repositories\ng_dummy_ng\net\neoforged\neoforge\21.1.73\neoforge-21.1.73.jar])]
-[19ago2026 16:39:11.134] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "neoforge-21.1.73.jar" [locator: neoforge devenv provider ([C:\Users\Administrator\Desktop\projects\Demis-Enigmatic-Dice\.gradle\repositories\ng_dummy_ng\net\neoforged\neoforge\21.1.73\neoforge-21.1.73.jar])]
-[19ago2026 16:39:11.161] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "main" [locator: userdev mods and services, reader: mod manifest]
-[19ago2026 16:39:11.182] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "neoforge-21.1.73.jar" [locator: userdev mods and services, reader: mod manifest]
-[19ago2026 16:39:11.188] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "curios-309927-6529130.jar" [locator: userdev mods and services, reader: mod manifest]
-[19ago2026 16:39:11.225] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "mixinextras-neoforge-0.4.1.jar" [locator: userdev mods and services, reader: mod manifest]
-[19ago2026 16:39:11.469] [main/WARN] [net.neoforged.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: library:mixinextras.neoforge. Using Mod File: C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\io.github.llamalad7\mixinextras-neoforge\0.4.1\eff97772ecd0dcf8e52cdbafd3b3ccec425f8314\mixinextras-neoforge-0.4.1.jar
-[19ago2026 16:39:11.470] [main/INFO] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Found 1 dependencies adding them to mods collection
-[19ago2026 16:39:11.470] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "neoforge-coremods-21.1.73.jar" [parent: neoforge-21.1.73.jar, locator: jarinjar, reader: mod manifest]
-[19ago2026 16:39:11.473] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: 
+[20ago2026 00:41:51.109] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeclientuserdev, --version, 21.1.73, --assetIndex, asset-index, --assetsDir, C:\Users\Administrator\.gradle\caches\minecraft\assets, --gameDir, ., --fml.neoForgeVersion, 21.1.73, --fml.fmlVersion, 4.0.31, --fml.mcVersion, 1.21.1, --fml.neoFormVersion, 20240808.144430]
+[20ago2026 00:41:51.115] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Eclipse Adoptium OpenJDK 64-Bit Server VM 21.0.10+7-LTS
+[20ago2026 00:41:51.119] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 11.0.4+main.d2e20e43 starting: java version 21.0.10 by Eclipse Adoptium; OS Windows 10 arch amd64 version 10.0
+[20ago2026 00:41:51.398] [main/INFO] [net.neoforged.fml.loading.ImmediateWindowHandler/]: Loading ImmediateWindowProvider fmlearlywindow
+[20ago2026 00:41:51.608] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.6
+[20ago2026 00:41:51.930] [main/INFO] [EARLYDISPLAY/]: Requested GL version 4.6 got version 4.6
+[20ago2026 00:41:52.118] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=union:/C:/Users/Administrator/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/2af2f021d8e02a0220dc27a7a72b4666d66d44ca/sponge-mixin-0.15.2+mixin.0.8.7.jar%23135!/ Service=ModLauncher Env=CLIENT
+[20ago2026 00:41:52.271] [pool-2-thread-1/INFO] [EARLYDISPLAY/]: GL info: Intel(R) Iris(R) Xe Graphics GL version 4.6.0 - Build 32.0.101.6737, Intel
+[20ago2026 00:41:52.557] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "neoforge-21.1.73.jar" [locator: neoforge devenv provider ([C:\Users\Administrator\Documents\GitHub\-Demi-s-Enigmatic-Dice\.gradle\repositories\ng_dummy_ng\net\neoforged\neoforge\21.1.73\neoforge-21.1.73.jar])]
+[20ago2026 00:41:52.595] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "neoforge-21.1.73.jar" [locator: neoforge devenv provider ([C:\Users\Administrator\Documents\GitHub\-Demi-s-Enigmatic-Dice\.gradle\repositories\ng_dummy_ng\net\neoforged\neoforge\21.1.73\neoforge-21.1.73.jar])]
+[20ago2026 00:41:52.623] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "main" [locator: userdev mods and services, reader: mod manifest]
+[20ago2026 00:41:52.644] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "neoforge-21.1.73.jar" [locator: userdev mods and services, reader: mod manifest]
+[20ago2026 00:41:52.655] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "curios-309927-6529130.jar" [locator: userdev mods and services, reader: mod manifest]
+[20ago2026 00:41:52.705] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "mixinextras-neoforge-0.4.1.jar" [locator: userdev mods and services, reader: mod manifest]
+[20ago2026 00:41:52.995] [main/WARN] [net.neoforged.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: library:mixinextras.neoforge. Using Mod File: C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\io.github.llamalad7\mixinextras-neoforge\0.4.1\eff97772ecd0dcf8e52cdbafd3b3ccec425f8314\mixinextras-neoforge-0.4.1.jar
+[20ago2026 00:41:52.996] [main/INFO] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Found 1 dependencies adding them to mods collection
+[20ago2026 00:41:52.996] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "neoforge-coremods-21.1.73.jar" [parent: neoforge-21.1.73.jar, locator: jarinjar, reader: mod manifest]
+[20ago2026 00:41:52.998] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: 
      Mod List:
 		Name Version (Mod Id)
 
@@ -23,167 +23,86 @@
 		Enigmatic Dice 1.3.1-1.21.1 (enigmaticdice)
 		Minecraft 1.21.1 (minecraft)
 		NeoForge 21.1.73 (neoforge)
-[19ago2026 16:39:12.224] [main/INFO] [mixin/]: Compatibility level set to JAVA_21
-[19ago2026 16:39:12.239] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclientuserdev' with arguments [--version, 21.1.73, --gameDir, ., --assetsDir, C:\Users\Administrator\.gradle\caches\minecraft\assets, --assetIndex, asset-index]
-[19ago2026 16:39:12.320] [main/WARN] [mixin/]: Reference map 'curios.refmap.json' for curios.neoforge.mixins.json could not be read. If this is a development environment you can ignore this message
-[19ago2026 16:39:12.321] [main/WARN] [mixin/]: Reference map 'curios.refmap.json' for curios.mixins.json could not be read. If this is a development environment you can ignore this message
-[19ago2026 16:39:13.649] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[19ago2026 16:39:14.709] [Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 229 Datafixer optimizations took 364 milliseconds
-[19ago2026 16:39:22.737] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[19ago2026 16:39:22.739] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[19ago2026 16:39:22.743] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[19ago2026 16:39:22.745] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[19ago2026 16:39:22.747] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[19ago2026 16:39:22.950] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/Administrator/Desktop/projects/Demis-Enigmatic-Dice/.gradle/repositories/ng_dummy_ng/net/neoforged/neoforge/21.1.73/neoforge-21.1.73.jar%23189!/assets/.mcassetsroot' uses unexpected schema
-[19ago2026 16:39:22.950] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/Administrator/Desktop/projects/Demis-Enigmatic-Dice/.gradle/repositories/ng_dummy_ng/net/neoforged/neoforge/21.1.73/neoforge-21.1.73.jar%23189!/data/.mcassetsroot' uses unexpected schema
-[19ago2026 16:39:22.989] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[19ago2026 16:39:23.003] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
-[19ago2026 16:39:23.138] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.3+5
-[19ago2026 16:39:23.421] [modloading-worker-0/INFO] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.1.73, for MC 1.21.1
-[19ago2026 16:39:24.754] [Render thread/INFO] [net.neoforged.neoforge.gametest.GameTestHooks/]: Enabled Gametest Namespaces: [enigmaticdice]
-[19ago2026 16:39:25.444] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla, mod_resources, mod/curios, mod/enigmaticdice, mod/neoforge
-[19ago2026 16:39:26.185] [Worker-Main-10/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-15.1.05.hex, loading
-[19ago2026 16:39:26.406] [Worker-Main-3/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_jp_patch-15.1.05.hex, loading
-[19ago2026 16:39:27.044] [Worker-Main-5/ERROR] [net.minecraft.client.resources.model.ModelManager/]: Failed to load model enigmaticdice:models/item/fire_clever_spear.json
-com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: Use JsonReader.setLenient(true) to accept malformed JSON at line 1 column 1 path $
-	at MC-BOOTSTRAP/com.google.gson@2.10.1/com.google.gson.internal.Streams.parse(Streams.java:61) ~[gson-2.10.1.jar%23107!/:?]
-	at MC-BOOTSTRAP/com.google.gson@2.10.1/com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:72) ~[gson-2.10.1.jar%23107!/:?]
-	at TRANSFORMER/minecraft@1.21.1/net.minecraft.util.GsonHelper.fromNullableJson(GsonHelper.java:432) ~[neoforge-21.1.73.jar%23189!/:?]
-	at TRANSFORMER/minecraft@1.21.1/net.minecraft.util.GsonHelper.fromJson(GsonHelper.java:439) ~[neoforge-21.1.73.jar%23189!/:?]
-	at TRANSFORMER/minecraft@1.21.1/net.minecraft.util.GsonHelper.fromJson(GsonHelper.java:491) ~[neoforge-21.1.73.jar%23189!/:?]
-	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.renderer.block.model.BlockModel.fromStream(BlockModel.java:83) ~[neoforge-21.1.73.jar%23189!/:?]
-	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.resources.model.ModelManager.lambda$loadBlockModels$8(ModelManager.java:143) ~[neoforge-21.1.73.jar%23189!/:?]
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) [?:?]
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) [?:?]
-	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) [?:?]
-	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) [?:?]
-	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) [?:?]
-	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) [?:?]
-	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) [?:?]
-Caused by: com.google.gson.stream.MalformedJsonException: Use JsonReader.setLenient(true) to accept malformed JSON at line 1 column 1 path $
-	at MC-BOOTSTRAP/com.google.gson@2.10.1/com.google.gson.stream.JsonReader.syntaxError(JsonReader.java:1659) ~[gson-2.10.1.jar%23107!/:?]
-	at MC-BOOTSTRAP/com.google.gson@2.10.1/com.google.gson.stream.JsonReader.checkLenient(JsonReader.java:1465) ~[gson-2.10.1.jar%23107!/:?]
-	at MC-BOOTSTRAP/com.google.gson@2.10.1/com.google.gson.stream.JsonReader.doPeek(JsonReader.java:602) ~[gson-2.10.1.jar%23107!/:?]
-	at MC-BOOTSTRAP/com.google.gson@2.10.1/com.google.gson.stream.JsonReader.peek(JsonReader.java:433) ~[gson-2.10.1.jar%23107!/:?]
-	at MC-BOOTSTRAP/com.google.gson@2.10.1/com.google.gson.internal.Streams.parse(Streams.java:47) ~[gson-2.10.1.jar%23107!/:?]
-	... 13 more
-[19ago2026 16:39:27.061] [Worker-Main-4/WARN] [net.minecraft.client.renderer.texture.SpriteLoader/]: Texture enigmaticdice:item/moon_1 with size 8x8 limits mip level from 4 to 3
-[19ago2026 16:39:29.101] [Worker-Main-5/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model enigmaticdice:unfinished_weapon#inventory:
+[20ago2026 00:41:54.441] [main/INFO] [mixin/]: Compatibility level set to JAVA_21
+[20ago2026 00:41:54.458] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclientuserdev' with arguments [--version, 21.1.73, --gameDir, ., --assetsDir, C:\Users\Administrator\.gradle\caches\minecraft\assets, --assetIndex, asset-index]
+[20ago2026 00:41:54.549] [main/WARN] [mixin/]: Reference map 'curios.refmap.json' for curios.neoforge.mixins.json could not be read. If this is a development environment you can ignore this message
+[20ago2026 00:41:54.550] [main/WARN] [mixin/]: Reference map 'curios.refmap.json' for curios.mixins.json could not be read. If this is a development environment you can ignore this message
+[20ago2026 00:41:56.486] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[20ago2026 00:41:58.054] [Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 229 Datafixer optimizations took 579 milliseconds
+[20ago2026 00:42:10.004] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[20ago2026 00:42:10.008] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[20ago2026 00:42:10.017] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[20ago2026 00:42:10.019] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[20ago2026 00:42:10.021] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[20ago2026 00:42:10.348] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/Administrator/Documents/GitHub/-Demi-s-Enigmatic-Dice/.gradle/repositories/ng_dummy_ng/net/neoforged/neoforge/21.1.73/neoforge-21.1.73.jar%23189!/assets/.mcassetsroot' uses unexpected schema
+[20ago2026 00:42:10.349] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/Administrator/Documents/GitHub/-Demi-s-Enigmatic-Dice/.gradle/repositories/ng_dummy_ng/net/neoforged/neoforge/21.1.73/neoforge-21.1.73.jar%23189!/data/.mcassetsroot' uses unexpected schema
+[20ago2026 00:42:10.413] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[20ago2026 00:42:10.439] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
+[20ago2026 00:42:10.719] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.3+5
+[20ago2026 00:42:11.153] [modloading-worker-0/INFO] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.1.73, for MC 1.21.1
+[20ago2026 00:42:13.135] [Render thread/INFO] [net.neoforged.neoforge.gametest.GameTestHooks/]: Enabled Gametest Namespaces: [enigmaticdice]
+[20ago2026 00:42:13.651] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla, mod_resources, mod/curios, mod/enigmaticdice, mod/neoforge
+[20ago2026 00:42:14.066] [Worker-Main-6/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-15.1.05.hex, loading
+[20ago2026 00:42:14.797] [Worker-Main-11/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_jp_patch-15.1.05.hex, loading
+[20ago2026 00:42:15.131] [Worker-Main-10/WARN] [net.minecraft.client.renderer.texture.SpriteLoader/]: Texture enigmaticdice:item/moon_1 with size 8x8 limits mip level from 4 to 3
+[20ago2026 00:42:18.813] [Worker-Main-7/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model enigmaticdice:unfinished_weapon#inventory:
     minecraft:textures/atlas/blocks.png:enigmaticdice:item/unfinished_weapon
-[19ago2026 16:39:29.460] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
-[19ago2026 16:39:29.460] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
-[19ago2026 16:39:29.530] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on Headphone (Realtek High Definition Audio)
-[19ago2026 16:39:29.531] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
-[19ago2026 16:39:29.805] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x4 minecraft:textures/atlas/blocks.png-atlas
-[19ago2026 16:39:29.984] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
-[19ago2026 16:39:29.988] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
-[19ago2026 16:39:29.996] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
-[19ago2026 16:39:30.005] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
-[19ago2026 16:39:30.069] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
-[19ago2026 16:39:30.071] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
-[19ago2026 16:39:30.074] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
-[19ago2026 16:39:30.077] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
-[19ago2026 16:39:30.244] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
-[19ago2026 16:39:30.264] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/paintings.png-atlas
-[19ago2026 16:39:30.269] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x0 minecraft:textures/atlas/mob_effects.png-atlas
-[19ago2026 16:39:30.275] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 64x64x0 minecraft:textures/atlas/map_decorations.png-atlas
-[19ago2026 16:39:30.278] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x0 minecraft:textures/atlas/gui.png-atlas
-[19ago2026 16:39:30.389] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
-[19ago2026 16:39:30.551] [Render thread/INFO] [net.neoforged.neoforge.client.entity.animation.json.AnimationLoader/]: Loaded 0 entity animations
-[19ago2026 16:41:25.058] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 1290 recipes
-[19ago2026 16:41:25.489] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1399 advancements
-[19ago2026 16:41:25.501] [Render thread/INFO] [Curios API/]: Loaded 10 curio slots
-[19ago2026 16:41:25.507] [Render thread/INFO] [Curios API/]: Loaded 1 curio entities
-[19ago2026 16:41:26.273] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.21.1
-[19ago2026 16:41:26.274] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[19ago2026 16:41:26.439] [Server thread/INFO] [net.jrdemiurge.enigmaticdice.EnigmaticDice/]: Enigmatic Dice config loading...
-[19ago2026 16:41:27.985] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[19ago2026 16:41:28.334] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[19ago2026 16:41:28.479] [Server thread/INFO] [net.neoforged.neoforge.server.permission.PermissionAPI/]: Successfully initialized permission handler neoforge:default_handler
-[19ago2026 16:41:28.490] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 496 ms
-[19ago2026 16:41:28.608] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 12, from 10
-[19ago2026 16:41:28.608] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 12, from 0
-[19ago2026 16:41:29.717] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dev[local:E:b5d0b69e] logged in with entity id 44 at (-31.54042279794689, 84.0, -3.146261961624195)
-[19ago2026 16:41:29.762] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
-[19ago2026 16:41:29.993] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 2 advancements
-[19ago2026 16:41:30.586] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
-[19ago2026 16:41:30.611] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[19ago2026 16:41:30.636] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[19ago2026 16:41:30.640] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[19ago2026 16:43:42.981] [Render thread/INFO] [net.jrdemiurge.enigmaticdice.EnigmaticDice/]: Config minecraft_give_modded_random_potion is disabled.
-[19ago2026 16:43:42.995] [Render thread/INFO] [net.jrdemiurge.enigmaticdice.EnigmaticDice/]: Skipping event enigmaticlegacy_eternal_binding: required mod enigmaticlegacy is missing.
-[19ago2026 16:43:42.996] [Render thread/INFO] [net.jrdemiurge.enigmaticdice.EnigmaticDice/]: Skipping event alexsmobs_summon_warped_toads: required mod alexsmobs is missing.
-[19ago2026 16:43:42.997] [Render thread/INFO] [net.jrdemiurge.enigmaticdice.EnigmaticDice/]: Skipping event alexsmobs_summon_centipede: required mod alexsmobs is missing.
-[19ago2026 16:43:42.997] [Render thread/INFO] [net.jrdemiurge.enigmaticdice.EnigmaticDice/]: Skipping event alexscaves_nuclear_bomb: required mod alexscaves is missing.
-[19ago2026 16:43:42.997] [Render thread/INFO] [net.jrdemiurge.enigmaticdice.EnigmaticDice/]: Skipping event alexscaves_summon_raycat: required mod alexscaves is missing.
-[19ago2026 16:43:42.998] [Render thread/INFO] [net.jrdemiurge.enigmaticdice.EnigmaticDice/]: Skipping event alexscaves_summon_subterranodon: required mod alexscaves is missing.
-[19ago2026 16:43:42.998] [Render thread/INFO] [net.jrdemiurge.enigmaticdice.EnigmaticDice/]: Skipping event alexscaves_summon_vallumraptor: required mod alexscaves is missing.
-[19ago2026 16:43:42.998] [Render thread/INFO] [net.jrdemiurge.enigmaticdice.EnigmaticDice/]: Skipping event alexscaves_summon_candicorn: required mod alexscaves is missing.
-[19ago2026 16:43:42.999] [Render thread/INFO] [net.jrdemiurge.enigmaticdice.EnigmaticDice/]: Skipping event artifacts_summon_mimic: required mod artifacts is missing.
-[19ago2026 16:43:42.999] [Render thread/INFO] [net.jrdemiurge.enigmaticdice.EnigmaticDice/]: Skipping event artifacts_wonderland_field: required mod artifacts is missing.
-[19ago2026 16:43:42.999] [Render thread/INFO] [net.jrdemiurge.enigmaticdice.EnigmaticDice/]: Skipping event artifacts_summon_dummy_chest: required mod artifacts is missing.
-[19ago2026 16:43:43.000] [Render thread/INFO] [net.jrdemiurge.enigmaticdice.EnigmaticDice/]: Skipping event netherexp_summon_carcass: required mod netherexp is missing.
-[19ago2026 16:43:43.000] [Render thread/INFO] [net.jrdemiurge.enigmaticdice.EnigmaticDice/]: Skipping event terramity_black_hole_bomb: required mod terramity is missing.
-[19ago2026 16:43:43.000] [Render thread/INFO] [net.jrdemiurge.enigmaticdice.EnigmaticDice/]: Skipping event terramity_macro_black_hole_bomb: required mod terramity is missing.
-[19ago2026 16:43:43.001] [Render thread/INFO] [net.jrdemiurge.enigmaticdice.EnigmaticDice/]: Skipping event terramity_antimatter_bomb: required mod terramity is missing.
-[19ago2026 16:43:43.001] [Render thread/INFO] [net.jrdemiurge.enigmaticdice.EnigmaticDice/]: Skipping event quark_give_ancient_tome: required mod quark is missing.
-[19ago2026 16:43:43.001] [Render thread/INFO] [net.jrdemiurge.enigmaticdice.EnigmaticDice/]: Skipping event born_in_chaos_brood_awakens: required mod born_in_chaos_v1 is missing.
-[19ago2026 16:43:43.003] [Render thread/INFO] [net.jrdemiurge.enigmaticdice.EnigmaticDice/]: Skipping event born_in_chaos_give_phantom_bomb: required mod born_in_chaos_v1 is missing.
-[19ago2026 16:43:43.004] [Render thread/INFO] [net.jrdemiurge.enigmaticdice.EnigmaticDice/]: Skipping event born_in_chaos_give_bone_heart: required mod born_in_chaos_v1 is missing.
-[19ago2026 16:43:43.004] [Render thread/INFO] [net.jrdemiurge.enigmaticdice.EnigmaticDice/]: Skipping event born_in_chaos_give_dark_atrium: required mod born_in_chaos_v1 is missing.
-[19ago2026 16:43:43.004] [Render thread/INFO] [net.jrdemiurge.enigmaticdice.EnigmaticDice/]: Skipping event born_in_chaos_give_elixir_of_vampirism: required mod born_in_chaos_v1 is missing.
-[19ago2026 16:43:43.005] [Render thread/INFO] [net.jrdemiurge.enigmaticdice.EnigmaticDice/]: Skipping event born_in_chaos_give_potion_of_rampage: required mod born_in_chaos_v1 is missing.
-[19ago2026 16:43:43.005] [Render thread/INFO] [net.jrdemiurge.enigmaticdice.EnigmaticDice/]: Skipping event supplementaries_give_bomb: required mod supplementaries is missing.
-[19ago2026 16:43:43.005] [Render thread/INFO] [net.jrdemiurge.enigmaticdice.EnigmaticDice/]: Skipping event supplementaries_give_bomb_blue: required mod supplementaries is missing.
-[19ago2026 16:43:43.006] [Render thread/INFO] [net.jrdemiurge.enigmaticdice.EnigmaticDice/]: Skipping event enigmaticlegacy_give_twisted_potion: required mod enigmaticlegacy is missing.
-[19ago2026 16:43:43.006] [Render thread/INFO] [net.jrdemiurge.enigmaticdice.EnigmaticDice/]: Skipping event enigmaticlegacy_give_golem_heart: required mod enigmaticlegacy is missing.
-[19ago2026 16:43:43.006] [Render thread/INFO] [net.jrdemiurge.enigmaticdice.EnigmaticDice/]: Skipping event enigmaticlegacy_give_angel_blessing: required mod enigmaticlegacy is missing.
-[19ago2026 16:43:43.006] [Render thread/INFO] [net.jrdemiurge.enigmaticdice.EnigmaticDice/]: Skipping event enigmaticlegacy_give_ocean_stone: required mod enigmaticlegacy is missing.
-[19ago2026 16:43:43.007] [Render thread/INFO] [net.jrdemiurge.enigmaticdice.EnigmaticDice/]: Skipping event enigmaticlegacy_give_blazing_core: required mod enigmaticlegacy is missing.
-[19ago2026 16:43:43.007] [Render thread/INFO] [net.jrdemiurge.enigmaticdice.EnigmaticDice/]: Skipping event enigmaticlegacy_give_eye_of_nebula: required mod enigmaticlegacy is missing.
-[19ago2026 16:43:43.007] [Render thread/INFO] [net.jrdemiurge.enigmaticdice.EnigmaticDice/]: Skipping event enigmaticlegacy_give_void_pearl: required mod enigmaticlegacy is missing.
-[19ago2026 16:43:43.007] [Render thread/INFO] [net.jrdemiurge.enigmaticdice.EnigmaticDice/]: Skipping event enigmaticlegacy_give_cosmic_cake: required mod enigmaticlegacy is missing.
-[19ago2026 16:43:43.008] [Render thread/INFO] [net.jrdemiurge.enigmaticdice.EnigmaticDice/]: Skipping event enigmaticlegacy_give_redemption_potion: required mod enigmaticlegacy is missing.
-[19ago2026 16:43:43.008] [Render thread/INFO] [net.jrdemiurge.enigmaticdice.EnigmaticDice/]: Skipping event enigmaticlegacy_give_soul_crystal: required mod enigmaticlegacy is missing.
-[19ago2026 16:43:43.008] [Render thread/INFO] [net.jrdemiurge.enigmaticdice.EnigmaticDice/]: Skipping event enigmaticlegacy_give_earth_heart: required mod enigmaticlegacy is missing.
-[19ago2026 16:43:43.009] [Render thread/INFO] [net.jrdemiurge.enigmaticdice.EnigmaticDice/]: Skipping event enigmaticlegacy_give_golden_ring: required mod enigmaticlegacy is missing.
-[19ago2026 16:43:43.009] [Render thread/INFO] [net.jrdemiurge.enigmaticdice.EnigmaticDice/]: Skipping event simplyswords_give_brimstone_claymore: required mod simplyswords is missing.
-[19ago2026 16:43:43.009] [Render thread/INFO] [net.jrdemiurge.enigmaticdice.EnigmaticDice/]: Skipping event simplyswords_give_watcher_claymore: required mod simplyswords is missing.
-[19ago2026 16:43:43.010] [Render thread/INFO] [net.jrdemiurge.enigmaticdice.EnigmaticDice/]: Skipping event simplyswords_give_storms_edge: required mod simplyswords is missing.
-[19ago2026 16:43:43.010] [Render thread/INFO] [net.jrdemiurge.enigmaticdice.EnigmaticDice/]: Skipping event simplyswords_give_stormbringer: required mod simplyswords is missing.
-[19ago2026 16:43:43.010] [Render thread/INFO] [net.jrdemiurge.enigmaticdice.EnigmaticDice/]: Skipping event simplyswords_give_bramblethorn: required mod simplyswords is missing.
-[19ago2026 16:43:43.010] [Render thread/INFO] [net.jrdemiurge.enigmaticdice.EnigmaticDice/]: Skipping event simplyswords_give_watching_warglaive: required mod simplyswords is missing.
-[19ago2026 16:43:43.011] [Render thread/INFO] [net.jrdemiurge.enigmaticdice.EnigmaticDice/]: Skipping event simplyswords_give_toxic_longsword: required mod simplyswords is missing.
-[19ago2026 16:43:43.011] [Render thread/INFO] [net.jrdemiurge.enigmaticdice.EnigmaticDice/]: Skipping event simplyswords_give_twisted_blade: required mod simplyswords is missing.
-[19ago2026 16:43:43.011] [Render thread/INFO] [net.jrdemiurge.enigmaticdice.EnigmaticDice/]: Skipping event simplyswords_give_soulrender: required mod simplyswords is missing.
-[19ago2026 16:43:43.011] [Render thread/INFO] [net.jrdemiurge.enigmaticdice.EnigmaticDice/]: Skipping event simplyswords_give_soulpyre: required mod simplyswords is missing.
-[19ago2026 16:43:43.012] [Render thread/INFO] [net.jrdemiurge.enigmaticdice.EnigmaticDice/]: Skipping event simplyswords_give_molten_edge: required mod simplyswords is missing.
-[19ago2026 16:43:43.012] [Render thread/INFO] [net.jrdemiurge.enigmaticdice.EnigmaticDice/]: Skipping event simplyswords_give_mjolnir: required mod simplyswords is missing.
-[19ago2026 16:43:43.012] [Render thread/INFO] [net.jrdemiurge.enigmaticdice.EnigmaticDice/]: Skipping event simplyswords_give_shadowsting: required mod simplyswords is missing.
-[19ago2026 16:43:43.012] [Render thread/INFO] [net.jrdemiurge.enigmaticdice.EnigmaticDice/]: Skipping event simplyswords_give_whisperwind: required mod simplyswords is missing.
-[19ago2026 16:43:43.013] [Render thread/INFO] [net.jrdemiurge.enigmaticdice.EnigmaticDice/]: Skipping event simplyswords_give_emberlash: required mod simplyswords is missing.
-[19ago2026 16:43:43.013] [Render thread/INFO] [net.jrdemiurge.enigmaticdice.EnigmaticDice/]: Skipping event simplyswords_give_stars_edge: required mod simplyswords is missing.
-[19ago2026 16:43:43.013] [Render thread/INFO] [net.jrdemiurge.enigmaticdice.EnigmaticDice/]: Skipping event simplyswords_give_tempest: required mod simplyswords is missing.
-[19ago2026 16:43:43.014] [Render thread/INFO] [net.jrdemiurge.enigmaticdice.EnigmaticDice/]: Skipping event simplyswords_give_ribboncleaver: required mod simplyswords is missing.
-[19ago2026 16:43:43.014] [Render thread/INFO] [net.jrdemiurge.enigmaticdice.EnigmaticDice/]: Skipping event simplyswords_give_runic_tablet: required mod simplyswords is missing.
-[19ago2026 16:43:43.014] [Render thread/INFO] [net.jrdemiurge.enigmaticdice.EnigmaticDice/]: Skipping event alexscaves_give_desolate_dagger: required mod alexscaves is missing.
-[19ago2026 16:43:43.014] [Render thread/INFO] [net.jrdemiurge.enigmaticdice.EnigmaticDice/]: Skipping event skyarena_give_mob_analyzer: required mod skyarena is missing.
-[19ago2026 16:43:43.031] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Let the wound become just a memory
-[19ago2026 16:46:07.282] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
-[19ago2026 16:46:07.293] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[19ago2026 16:46:07.309] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[19ago2026 16:46:07.315] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[19ago2026 16:46:07.840] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dev lost connection: Disconnected
-[19ago2026 16:46:07.841] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev left the game
-[19ago2026 16:46:07.848] [Server thread/INFO] [net.minecraft.server.network.ServerCommonPacketListenerImpl/]: Stopping singleplayer server as player logged out
-[19ago2026 16:46:07.882] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[19ago2026 16:46:07.883] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[19ago2026 16:46:07.883] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[19ago2026 16:46:09.313] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[19ago2026 16:46:09.392] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[19ago2026 16:46:09.394] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[19ago2026 16:46:09.402] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (New World): All chunks are saved
-[19ago2026 16:46:09.402] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[19ago2026 16:46:09.402] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[19ago2026 16:46:09.403] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
-[19ago2026 16:46:10.475] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
+[20ago2026 00:42:19.365] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
+[20ago2026 00:42:19.371] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[20ago2026 00:42:19.815] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on Headphone (Realtek High Definition Audio)
+[20ago2026 00:42:19.820] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
+[20ago2026 00:42:20.022] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x4 minecraft:textures/atlas/blocks.png-atlas
+[20ago2026 00:42:20.158] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
+[20ago2026 00:42:20.161] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[20ago2026 00:42:20.165] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[20ago2026 00:42:20.168] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
+[20ago2026 00:42:20.205] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
+[20ago2026 00:42:20.207] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[20ago2026 00:42:20.209] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[20ago2026 00:42:20.211] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[20ago2026 00:42:20.393] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
+[20ago2026 00:42:20.410] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/paintings.png-atlas
+[20ago2026 00:42:20.415] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x0 minecraft:textures/atlas/mob_effects.png-atlas
+[20ago2026 00:42:20.419] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 64x64x0 minecraft:textures/atlas/map_decorations.png-atlas
+[20ago2026 00:42:20.422] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x0 minecraft:textures/atlas/gui.png-atlas
+[20ago2026 00:42:20.554] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[20ago2026 00:42:20.734] [Render thread/INFO] [net.neoforged.neoforge.client.entity.animation.json.AnimationLoader/]: Loaded 0 entity animations
+[20ago2026 00:43:50.175] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 1290 recipes
+[20ago2026 00:43:50.445] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1399 advancements
+[20ago2026 00:43:50.460] [Render thread/INFO] [Curios API/]: Loaded 10 curio slots
+[20ago2026 00:43:50.465] [Render thread/INFO] [Curios API/]: Loaded 1 curio entities
+[20ago2026 00:43:51.267] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.21.1
+[20ago2026 00:43:51.267] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[20ago2026 00:43:51.427] [Server thread/INFO] [net.jrdemiurge.enigmaticdice.EnigmaticDice/]: Enigmatic Dice config loading...
+[20ago2026 00:43:53.050] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[20ago2026 00:43:53.542] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20ago2026 00:43:53.564] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20ago2026 00:43:53.743] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 688 ms
+[20ago2026 00:43:53.746] [Server thread/INFO] [net.neoforged.neoforge.server.permission.PermissionAPI/]: Successfully initialized permission handler neoforge:default_handler
+[20ago2026 00:43:53.896] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 12, from 10
+[20ago2026 00:43:53.897] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 12, from 0
+[20ago2026 00:43:54.973] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dev[local:E:46d2a1c0] logged in with entity id 18 at (-79.87915666729725, 96.82554423055443, -148.03445435711606)
+[20ago2026 00:43:55.030] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
+[20ago2026 00:43:55.388] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 3 advancements
+[20ago2026 00:43:56.200] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[20ago2026 00:43:56.231] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[20ago2026 00:43:56.261] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[20ago2026 00:43:56.267] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[20ago2026 00:45:32.852] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[20ago2026 00:45:32.864] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[20ago2026 00:45:32.900] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[20ago2026 00:45:32.906] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[20ago2026 00:45:33.363] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dev lost connection: Disconnected
+[20ago2026 00:45:33.363] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev left the game
+[20ago2026 00:45:33.381] [Server thread/INFO] [net.minecraft.server.network.ServerCommonPacketListenerImpl/]: Stopping singleplayer server as player logged out
+[20ago2026 00:45:33.404] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[20ago2026 00:45:33.405] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[20ago2026 00:45:33.405] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[20ago2026 00:45:33.687] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[20ago2026 00:45:33.762] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[20ago2026 00:45:33.764] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[20ago2026 00:45:33.773] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (New World): All chunks are saved
+[20ago2026 00:45:33.774] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[20ago2026 00:45:33.775] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[20ago2026 00:45:33.775] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[20ago2026 00:45:34.849] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!

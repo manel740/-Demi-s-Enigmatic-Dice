@@ -4,7 +4,7 @@
   "item.enigmaticdice.unequal_exchange": "§4Unequal Exchange",
   "item.enigmaticdice.soul_eater": "§dSoul Eater",
   "item.enigmaticdice.antimatter": "§dAntimatter",
-  "item.enigmaticdice.four_leaf_clever": "§dFour-Leaf Clover",
+  "item.enigmaticdice.four_leaf_clover": "§dFour-Leaf Clover",
   "item.enigmaticdice.giants_ring": "§dGiant's Ring",
   "item.enigmaticdice.moon_shard": "§dMoon Shard",
   "item.enigmaticdice.moon": "§dMoon",
@@ -60,7 +60,7 @@
   "tooltip.enigmaticdice.soul_eater_3": "§5- Your next attack will deal an additional §6%1$s §dmagic damage§5 for every §61§d health§5 spent.",
   "tooltip.enigmaticdice.soul_eater_4": "§5- If this attack kills the target, you will restore §650% §dof the health spent on the attack.",
   "tooltip.enigmaticdice.soul_eater_5": "§dOn Kill:",
-  "tooltip.enigmaticdice.soul_eater_6": "§5- You restore §6%1$s §dof the target’s maximum health.",
+  "tooltip.enigmaticdice.soul_eater_6": "§5- You restore §6%1$s §dof the target's maximum health.",
   "tooltip.enigmaticdice.soul_eater_7": "§5- You get a maximum health boost equal to §6%1$s §dof the target's maximum health §5for §6%2$s §dminutes§5, but no more than §6%3$s §dof your maximum health.",
 
   "tooltip.enigmaticdice.permafrost_1": "§dOn hit:",
@@ -83,7 +83,7 @@
   "tooltip.enigmaticdice.antimatter.2": "§5Also triggers a very powerful §6explosion.",
   "tooltip.enigmaticdice.antimatter.3": "§5Can be used with a §6dispenser.",
 
-  "tooltip.enigmaticdice.four_leaf_clever": "§6+1 §dto Luck§5 for each §6Clover§5 in your inventory.",
+  "tooltip.enigmaticdice.four_leaf_clover": "§6+1 §dto Luck§5 for each §6Clover§5 in your inventory.",
 
   "tooltip.enigmaticdice.giants_ring_0": "§dFeel the might of giants.",
   "tooltip.enigmaticdice.giants_ring_1": "§5Increases the wearer's §dsize§5 by §61.5×§5.",
@@ -116,14 +116,14 @@
   "enigmaticdice.block_break": "§6How did this end up here?",
 
   "enigmaticdice.mob_drop.0": "§6Funny. He was carrying something that belongs to you.",
-  "enigmaticdice.mob_drop.1": "§6You took what should’ve been yours all along.",
-  "enigmaticdice.mob_drop.2": "§6Looks like he didn’t even know he was carrying it.",
+  "enigmaticdice.mob_drop.1": "§6You took what should've been yours all along.",
+  "enigmaticdice.mob_drop.2": "§6Looks like he didn't even know he was carrying it.",
   "enigmaticdice.mob_drop.3": "§6And why was he lugging that around, anyway?",
 
   "enigmaticdice.advancement_earned.0" : "§6Hmm... a worthy achievement. I suppose you've earned this.",
   "enigmaticdice.advancement_earned.1" : "§6Who would've thought... you're not that simple after all. Take the die.",
   "enigmaticdice.advancement_earned.2" : "§6Well then, not bad. Take this for your effort.",
-  "enigmaticdice.advancement_earned.3" : "§6Keep it up. I’d say you’ve earned this.",
+  "enigmaticdice.advancement_earned.3" : "§6Keep it up. I'd say you've earned this.",
   "enigmaticdice.advancement_earned.4" : "§6Well done. This is for you.",
 
   "enigmaticdice.effect.luck": "§d§oMay luck always be on your side",
@@ -159,14 +159,14 @@
   "enigmaticdice.event.day_of_strength": "§5Day of Strength",
   "enigmaticdice.event.day_on_the_moon": "§5Day on the Moon",
 
-  "enigmaticdice.event.centipede.0": "§cWhy are there so many legs in this world? Oh right… That’s your problem.",
+  "enigmaticdice.event.centipede.0": "§cWhy are there so many legs in this world? Oh right… That's your problem.",
   "enigmaticdice.event.centipede.1": "§cHow many legs does a centipede have? I hope you have enough time to count them.",
   "enigmaticdice.event.centipede.2": "§cDid someone order an extra-long monster? No refunds!",
   "enigmaticdice.event.centipede.3": "§cIt could have been bigger… but then the game would crash.",
-  "enigmaticdice.event.centipede.4": "§cIf this is a dream, it’s time to wake up. If it’s not… then you’re out of luck.",
-  "enigmaticdice.event.centipede.5": "§cCongratulations! You’ve summoned the longest pet! Too bad it doesn’t like you.",
+  "enigmaticdice.event.centipede.4": "§cIf this is a dream, it's time to wake up. If it's not… then you're out of luck.",
+  "enigmaticdice.event.centipede.5": "§cCongratulations! You've summoned the longest pet! Too bad it doesn't like you.",
   "enigmaticdice.event.centipede.6": "§cOut of all possible outcomes… You got the one with the most legs.",
-  "enigmaticdice.event.centipede.7": "§cBugs in the house are annoying. But when the house is inside the bug, it’s even worse.",
+  "enigmaticdice.event.centipede.7": "§cBugs in the house are annoying. But when the house is inside the bug, it's even worse.",
   "enigmaticdice.event.centipede.8": "§cYou woke it up. It got out on the wrong foot… or maybe the wrong hundred.",
 
   "enigmaticdice.event.wonderland_field.0": "§5There's a sense of treasure in the air... Maybe you should take a look around?",

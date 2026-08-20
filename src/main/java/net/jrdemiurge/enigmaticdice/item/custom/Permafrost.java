@@ -40,6 +40,12 @@ import net.minecraft.world.scores.Team;
 import net.neoforged.api.distmarker.Dist;
 import net.neoforged.api.distmarker.OnlyIn;
 import org.jetbrains.annotations.Nullable;
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.world.entity.EquipmentSlotGroup;
+import net.minecraft.world.entity.ai.attributes.AttributeModifier;
+import net.minecraft.world.entity.ai.attributes.Attributes;
+import net.minecraft.world.item.component.ItemAttributeModifiers;
+import net.jrdemiurge.enigmaticdice.EnigmaticDice;
 
 import java.util.*;
 
@@ -58,7 +64,20 @@ public class Permafrost extends SwordItem {
     private static final Map<UUID, Long> lastAuraTimeMap = new HashMap<>();
 
     public Permafrost(Tier pTier, Properties pProperties) {
-        super(pTier, pProperties);
+        super(pTier, pProperties.attributes(
+                ItemAttributeModifiers.builder()
+                        .add(Attributes.ATTACK_DAMAGE, new AttributeModifier(
+                                Item.BASE_ATTACK_DAMAGE_ID,
+                                Config.PermafrostAttackDamage - 1.0, // 10.0 - 1.0 = 9.0 (Total: 10.0)
+                                AttributeModifier.Operation.ADD_VALUE
+                        ), EquipmentSlotGroup.MAINHAND)
+                        .add(Attributes.ATTACK_SPEED, new AttributeModifier(
+                                Item.BASE_ATTACK_SPEED_ID,
+                                Config.PermafrostAttackSpeed - 4.0, // 2.0 - 4.0 = -2.0 (Total: 2.0)
+                                AttributeModifier.Operation.ADD_VALUE
+                        ), EquipmentSlotGroup.MAINHAND)
+                        .build()
+        ));
     }
 
     public Multimap<Holder<Attribute>, AttributeModifier> getAttributeModifiers(ItemStack stack) {

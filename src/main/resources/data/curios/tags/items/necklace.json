@@ -1,3 +1,6 @@
 {
-  "values": ["enigmaticdice:moai_charm"]
+  "replace": false,
+  "values": [
+    "enigmaticdice:moai_charm"
+  ]
 }

@@ -26,6 +26,12 @@ import net.minecraft.world.item.component.CustomData;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.item.Tier;
 import net.neoforged.neoforge.common.extensions.IItemExtension;
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.world.entity.EquipmentSlotGroup;
+import net.minecraft.world.entity.ai.attributes.AttributeModifier;
+import net.minecraft.world.entity.ai.attributes.Attributes;
+import net.minecraft.world.item.component.ItemAttributeModifiers;
+import net.jrdemiurge.enigmaticdice.EnigmaticDice;
 
 import java.util.ArrayList;
 import java.util.HashSet;
@@ -39,7 +45,20 @@ public class CrucibleOfRile extends SwordItem implements IItemExtension {
     private static final String TAG_UNIQUE_KILLS = "UniqueKills";
 
     public CrucibleOfRile(Tier pTier, Properties pProperties) {
-        super(pTier, pProperties);
+        super(pTier, pProperties.attributes(
+                ItemAttributeModifiers.builder()
+                        .add(Attributes.ATTACK_DAMAGE, new AttributeModifier(
+                                Item.BASE_ATTACK_DAMAGE_ID,
+                                Config.CrucibleOfRileAttackDamage - 1.0, // 16.0 - 1.0 = 15.0 (Total: 16.0)
+                                AttributeModifier.Operation.ADD_VALUE
+                        ), EquipmentSlotGroup.MAINHAND)
+                        .add(Attributes.ATTACK_SPEED, new AttributeModifier(
+                                Item.BASE_ATTACK_SPEED_ID,
+                                Config.CrucibleOfRileAttackSpeed - 4.0, // 1.4 - 4.0 = -2.6 (Total: 1.4)
+                                AttributeModifier.Operation.ADD_VALUE
+                        ), EquipmentSlotGroup.MAINHAND)
+                        .build()
+        ));
     }
 
     @Override

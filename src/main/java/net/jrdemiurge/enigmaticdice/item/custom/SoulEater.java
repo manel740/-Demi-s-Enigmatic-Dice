@@ -1,52 +1,54 @@
 package net.jrdemiurge.enigmaticdice.item.custom;
 
-import com.google.common.collect.HashMultimap;
-import com.google.common.collect.Multimap;
 import net.jrdemiurge.enigmaticdice.Config;
 import net.jrdemiurge.enigmaticdice.EnigmaticDice;
 import net.jrdemiurge.enigmaticdice.effect.ModEffects;
-import net.jrdemiurge.enigmaticdice.item.ModItems;
 import net.minecraft.ChatFormatting;
 import net.minecraft.client.gui.screens.Screen;
-import net.minecraft.core.Holder;
 import net.minecraft.network.chat.Component;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.effect.MobEffectInstance;
+import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.LivingEntity;
-import net.minecraft.world.entity.ai.attributes.Attribute;
 import net.minecraft.world.entity.ai.attributes.AttributeInstance;
 import net.minecraft.world.entity.ai.attributes.AttributeModifier;
 import net.minecraft.world.entity.ai.attributes.Attributes;
 import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.SwordItem;
 import net.minecraft.world.item.Tier;
 import net.minecraft.world.item.TooltipFlag;
-import net.minecraft.world.level.Level;
-import net.minecraft.world.item.Item;
 import net.neoforged.api.distmarker.Dist;
 import net.neoforged.api.distmarker.OnlyIn;
-import org.jetbrains.annotations.Nullable;
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.world.entity.EquipmentSlotGroup;
+import net.minecraft.world.entity.ai.attributes.AttributeModifier;
+import net.minecraft.world.entity.ai.attributes.Attributes;
+import net.minecraft.world.item.component.ItemAttributeModifiers;
+import net.jrdemiurge.enigmaticdice.EnigmaticDice;
 
-import java.util.UUID;
+import java.util.List;
 
 public class SoulEater extends SwordItem {
 
     private static final ResourceLocation SOUL_EATER_HEALTH_BUFF_ID = ResourceLocation.fromNamespaceAndPath(EnigmaticDice.MOD_ID, "soul_eater_health_buff");
 
     public SoulEater(Tier pTier, Properties pProperties) {
-        super(pTier, pProperties);
-    }
-
-    public Multimap<Holder<Attribute>, AttributeModifier> getAttributeModifiers(ItemStack stack) {
-        Multimap<Holder<Attribute>, AttributeModifier> modifiers = HashMultimap.create();
-        modifiers.put(Attributes.ATTACK_DAMAGE, new AttributeModifier(
-                ResourceLocation.fromNamespaceAndPath(EnigmaticDice.MOD_ID, "soul_eater_damage"),
-                Config.SoulEaterAttackDamage - 1, AttributeModifier.Operation.ADD_VALUE));
-        modifiers.put(Attributes.ATTACK_SPEED, new AttributeModifier(
-                ResourceLocation.fromNamespaceAndPath(EnigmaticDice.MOD_ID, "soul_eater_speed"),
-                Config.SoulEaterAttackSpeed - 4, AttributeModifier.Operation.ADD_VALUE));
-        return modifiers;
+        super(pTier, pProperties.attributes(
+                ItemAttributeModifiers.builder()
+                        .add(Attributes.ATTACK_DAMAGE, new AttributeModifier(
+                                Item.BASE_ATTACK_DAMAGE_ID,
+                                Config.SoulEaterAttackDamage - 1.0, // 10.0 - 1.0 = 9.0 (Total: 1.0 + 9.0 = 10.0)
+                                AttributeModifier.Operation.ADD_VALUE
+                        ), EquipmentSlotGroup.MAINHAND)
+                        .add(Attributes.ATTACK_SPEED, new AttributeModifier(
+                                Item.BASE_ATTACK_SPEED_ID,
+                                Config.SoulEaterAttackSpeed - 4.0, // 2.0 - 4.0 = -2.0 (Total: 4.0 + -2.0 = 2.0)
+                                AttributeModifier.Operation.ADD_VALUE
+                        ), EquipmentSlotGroup.MAINHAND)
+                        .build()
+        ));
     }
 
     @Override
@@ -81,8 +83,10 @@ public class SoulEater extends SwordItem {
         return super.hurtEnemy(stack, target, attacker);
     }
 
-    public boolean onLeftClickEntity(ItemStack stack, Player player, LivingEntity entity) {
-        if (!player.level().isClientSide) {
+    @Override
+    public boolean onLeftClickEntity(ItemStack stack, Player player, Entity entity) {
+        // CORRECCIÓN: El tercer parámetro debe ser Entity, no LivingEntity
+        if (!player.level().isClientSide && entity instanceof LivingEntity livingEntity) {
             player.removeEffect(ModEffects.SOUL_EATER_CHARGED_HIT);
             float spentHealthSum = 0;
 
@@ -94,7 +98,7 @@ public class SoulEater extends SwordItem {
             }
 
             if (spentHealthSum > 0) {
-                entity.addEffect(new MobEffectInstance(ModEffects.SOUL_EATER_CHARGED_HIT, 20 * Config.SoulEaterChargeDuration, (int) (spentHealthSum - 1)));
+                livingEntity.addEffect(new MobEffectInstance(ModEffects.SOUL_EATER_CHARGED_HIT, 20 * Config.SoulEaterChargeDuration, (int) (spentHealthSum - 1)));
             }
         }
         return super.onLeftClickEntity(stack, player, entity);
@@ -107,12 +111,11 @@ public class SoulEater extends SwordItem {
 
     @Override
     @OnlyIn(Dist.CLIENT)
-    public void appendHoverText(ItemStack pStack, Item.TooltipContext pContext, java.util.List<Component> pTooltipComponents, TooltipFlag pIsAdvanced) {
+    public void appendHoverText(ItemStack pStack, Item.TooltipContext pContext, List<Component> pTooltipComponents, TooltipFlag pIsAdvanced) {
         if (Screen.hasShiftDown()) {
             pTooltipComponents.add(Component.translatable("tooltip.enigmaticdice.soul_eater_1"));
             pTooltipComponents.add(Component.literal(" "));
-            pTooltipComponents.add(Component.translatable("tooltip.enigmaticdice.soul_eater_2")
-                    .withStyle(ChatFormatting.GOLD));
+            pTooltipComponents.add(Component.translatable("tooltip.enigmaticdice.soul_eater_2").withStyle(ChatFormatting.GOLD));
         } else {
             pTooltipComponents.add(Component.translatable("tooltip.enigmaticdice.holdShift"));
         }

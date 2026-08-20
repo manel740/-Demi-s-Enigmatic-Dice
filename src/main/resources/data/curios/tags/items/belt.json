@@ -1,3 +1,6 @@
 {
-  "values": ["enigmaticdice:gravity_core"]
+  "replace": false,
+  "values": [
+    "enigmaticdice:gravity_core"
+  ]
 }
